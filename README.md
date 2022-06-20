@@ -1,2 +1,6 @@
 # Arduino-fliper-simple
 The digital game Arduino Pinball is conceived as an arcade game in which players win points controlling the ball on the game board. The primary goal of the game is to score as many points as possible. Points are earned by shooting various objects on the game board. At the bottom of the board are the pinball machines he controls player. The idea of the project is to turn a classic pinball game into a fun, digital game using an Arduino MKR1000 microcontroller as a basis. The microcontroller and program code are used for management sticks, detecting the points scored by the player and printing the results and game interface on the LCD screen. Game uses several sensors that detect key events during the game.
+
+We decided to make the sensors for detecting points in a completely different way. It's about simple circuits that close when the ball hits a given area. A simple switch closes and opens the circuit and we detect this change on the Arduino terminal. This one the detection method proved to be much better and more reliable than the use of vibration sensors. From that we conclude that sometimes it is better to use simple and primitive technology to achieve the desired the result.
+
+https://skola-gdmp.hr/wp-content/uploads/2021/06/Arduino-fliper-Od-prototipa-do-proizvoda.pdf
